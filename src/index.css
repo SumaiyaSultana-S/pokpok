@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x:hidden;
+    
+}
+.slick-dots .slick-active div{
+
+    border-right:2px solid #262626 !important;
+     color:#262626 !important ;
+}
+.one{
+    box-shadow:0px 7px 38px rgba(0, 0, 0, 0.09)
+}
+@media (max-width:648px){
+    .onee{
+        left:-89px !important;
+        top:-127px !important;
+        position: relative !important;
+        font-size: 13px !important;
+       
+    }
+    .slick-dots ul li div{
+
+        padding: 0px 0px !important;
+        font-size: 12px !important;
+        width: 25px !important;
+    }
+        
+}
